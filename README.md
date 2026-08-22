@@ -70,32 +70,5 @@ Since the app has no compilation/build requirements, you can open and run it ins
 
 ---
 
-## ☁️ Deploying to Vercel
 
-To deploy this project to Vercel:
 
-1. Create a repository on GitHub (e.g., `ai-recruiter`).
-2. Push all the files (`index.html`, `styles.css`, `app.js`, `README.md`) to the repository:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: AI Recruiter Suite"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   git push -u origin main
-   ```
-3. Log in to [Vercel](https://vercel.com).
-4. Click **New Project** and import your GitHub repository.
-5. Vercel will automatically detect the static project. Click **Deploy**. Your site is now live!
-
----
-
-## 📝 Self-Evaluation Rubric Mapping
-
-| Criterion | Weight | How It Was Met in This Submission |
-| :--- | :--- | :--- |
-| **Understanding & Explanation** | 25% | Structured README.md mapping the weighted formulas, local server specs, and design rationale. |
-| **Technical Implementation** | 25% | Regular expressions with boundary checks parsing words dynamically without external API keys. Outputs the exact singular key JSON structure. |
-| **Creativity & Innovation** | 20% | Voice recording visualizer (Web Speech), text-to-speech audio feedback, and local storage database exporting JSON logs. |
-| **Code Quality** | 15% | Clean modular script division separating styling definitions, curated skill database, and DOM handlers. |
-| **Documentation** | 15% | Comprehensive details, code formulas in LaTeX, and deploy/run guidelines. |
