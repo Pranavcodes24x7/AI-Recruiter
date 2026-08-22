@@ -1,0 +1,21 @@
+{
+  "name": "ai-recruiter",
+  "version": "1.0.0",
+  "description": "AI-powered recruitment assistant and candidate matching system running entirely client-side.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "recruitment",
+    "ai",
+    "nlp",
+    "matching",
+    "nlp-extractor"
+  ],
+  "author": "Club Recruitment Candidate",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
