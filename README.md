@@ -2,7 +2,9 @@
 
 An AI-powered recruitment assistant that extracts skills, technologies, and programming languages from conversational inputs, matches candidates to jobs using category-weighted metrics, and offers voice synthesis and logs.
 
----
+ 👉 LINK TO MY LIVE WEBSITE - https://ai-recruiter-six-theta.vercel.app/
+
+
 
 ## 1. Project Overview
 The **AI Recruiter Workspace** is a single-page web application designed to help recruiters process unstructured candidate experience text, extract technical entities, and match profiles against job openings. 
@@ -115,8 +117,18 @@ $$\text{Match Score (\%)} = \left( \frac{\sum_{c \in \text{Categories}} w_c \cdo
 
 ---
 
-## 10. Screenshots
-*(Placeholder paths for submission screenshots)*
-* **Part 1 Extraction Dashboard:** `docs/screenshots/extraction_view.png`
-* **Part 2 Resume Matcher Results:** `docs/screenshots/matcher_view.png`
-* **Voice Screen Interface:** `docs/screenshots/voice_view.png`
+## 🛠️ Tech Stack 
+
+* **Structure:** Semantic HTML5 Markup
+* **Styling:** CSS3 variables, Glassmorphism design tokens, CSS Grid systems, keyframe animations
+* **Logic:** Vanilla ES6 Javascript (micro-regex parsing, Web Speech API, Storage API)
+* **Icons:** FontAwesome CDN
+
+### Directory Structure
+```
+ai-recruiter/
+├── index.html     # Application Layout & Views
+├── styles.css     # Glassmorphic Styling System
+├── app.js         # NLP Extractor, Matcher & Interface Controllers
+└── README.md      # Repository & Developer Documentation
+
