@@ -2,6 +2,8 @@
 
 An AI-powered recruitment assistant that extracts skills, technologies, and programming languages from conversational profiles (Part 1), calculates weighted compatibility matching scores against job roles (Part 2), and provides interactive voice controls and match tracking memory logs (Stretch Goals).
 
+link to my live AI-Recruiter website deployed on vercel : https://ai-recruiter-six-theta.vercel.app/
+
 This project runs **fully client-side in the browser** with zero API keys or external servers, adhering strictly to the recruitment constraint of **"No LLM API Key usage"**. It is built as a single-page application (SPA) deployable on **Vercel** with a single click.
 
 ---
